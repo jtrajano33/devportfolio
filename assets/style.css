@@ -1,0 +1,60 @@
+body{
+	background: url(../assets/images/bg.jpg) no-repeat center fixed;
+	-webkit-background-size:cover; /*targets chrome and safari browsers*/
+	-moz-background-size:cover; /*mozilla*/
+	-o-background-size: cover; /*opera*/
+	background-size: cover;
+	font-family: 'IBM Plex Sans', sans-serif;
+	margin-top: 10%;
+
+}
+
+h1{
+
+	color: white;
+	font-size: 50px;
+	font-weight: normal;
+	margin-bottom: 0;
+	font-family: 'Anton', sans-serif;
+	text-shadow: 5px 5px #000000 ;
+	transform:scale(1.5,1);
+
+
+}
+
+h2{
+	color: white;
+	font-size: 18px;
+	margin-top: 0;
+	text-shadow: 2px 2px #000000 ;
+	margin-top: 5px;
+
+}
+
+.bio{
+	color: white;
+	font-size: 16px;
+	text-shadow: 1px 1px #000000 ;
+	text-align: justify;
+	margin-top: 5px;
+
+
+}
+
+.about{
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+
+}
+
+
+.me{
+	height: 150px;
+	border-radius: 100%;
+	border-style: solid;
+	border-color: white;
+	margin-top: 40px;	
+}
+
